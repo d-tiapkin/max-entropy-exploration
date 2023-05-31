@@ -1,4 +1,4 @@
-# Adaptive Reward-Free Exploration
+# Fast Rates for Maximum Entropy Exploration
 
 This repository contains the source code used for the paper *Fast Rates for Maximum Entropy Exploration*.
 
