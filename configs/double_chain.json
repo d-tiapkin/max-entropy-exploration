@@ -1,0 +1,18 @@
+{
+    "env_class": "<class 'envs.doublechain.DoubleChain'>",
+    "env_params": {
+        "L": 31, "fail_prob": 0.1
+    },
+    "horizon": 20,
+    "gamma": 1.0,
+    "clip": true,
+    "bonus_scale_factor": 1.0,
+    "seed": 1253,
+    "out": "out",
+    "n_runs": 48,
+    "n_jobs": 48,
+    "error_estimation_samples": 1000000,
+    "occupancies_samples": 100000,
+    "complexity_samples_logspace": [6, 6, 1],
+    "complexity_n_runs": 48
+}

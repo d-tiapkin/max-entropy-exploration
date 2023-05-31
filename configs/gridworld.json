@@ -1,0 +1,22 @@
+{
+    "env_class": "<class 'envs.gridworld.GridWorld'>",
+    "env_params": {
+        "nrows": 21,
+        "ncols": 21,
+        "start_coord": [10, 10],
+        "reward_at": {"(16, 16)": 1},
+        "success_probability": 0.95
+    },
+    "horizon": 20,
+    "gamma": 1.0,
+    "clip": false,
+    "bonus_scale_factor": 1.0,
+    "seed": 1253,
+    "out": "out",
+    "n_runs": 12,
+    "n_jobs": 12,
+    "samples_logspace": [2, 4.5, 11],
+    "occupancies_samples": 600000,
+    "complexity_samples_logspace": [2, 7, 30],
+    "complexity_n_runs": 5
+}
